@@ -1,0 +1,40 @@
+body{
+    background: red;
+}
+
+h1{
+    font-size: 90px;
+    color: white;
+}
+@media (min-width: 0px) and (max-width: 300px){
+    body{
+        background: blue;
+    }
+
+    h1{
+        font-size: 30px;
+        color: white;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 500px){
+    body{
+        background: green;
+    }
+
+    h1{
+        font-size: 50px;
+        color: white;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 700px){
+    body{
+        background: black;
+    }
+
+    h1{
+        font-size: 70px;
+        color: white;
+    }
+}
